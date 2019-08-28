@@ -1,0 +1,27 @@
+{
+  "name": "fastly-simple-server",
+  "version": "1.0.0",
+  "description": "``` $ curl -s https://install-node.now.sh | sudo bash -s -- $ ssh-keygen",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okami-satoshi/fastly-simple-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okami-satoshi/fastly-simple-server/issues"
+  },
+  "homepage": "https://github.com/okami-satoshi/fastly-simple-server#readme",
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
